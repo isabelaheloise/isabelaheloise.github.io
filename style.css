@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar ul {
+    /* Removendo o estilo da ul */
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    /* Colocando os itens da barra de navegação no centro da página */
+    gap: 10rem;
+    width: 100%;
+    align-items: top;
+    margin: 0;
+    padding: 1em;
+    background-color: #747264;
+    font-size: larger;
+}
+
+.navbar ul li {
+    /* Colocando os itens da barra de navegação na versão horizontal */
+    display: inline;
+    float: left;
+}
+
+.navbar ul li a {
+    /* Detalhes visuais */
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: #747264;
+    display: block;
+    color: #3C3633;
+    font-size: 20pt;
+    font-family: "VT323", monospace;
+}
+
+.about-me, .education, .projects, .contacts {
+    /* Todos as páginas centralizadas */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me .text {
+    /* Mudando a fonte e outras coisas */
+    margin-top: 3.5rem;
+    width: 400px;
+    height: 480px;
+    border: 10px #3C3633;
+    background-color: #E0CCBE;
+    padding: 35px;
+    font-family: "VT323", monospace;
+    font-size:xx-large;
+    color: #3C3633;
+}
+
+.about-me .text p {
+    margin-top: 0.5rem;
+}
+
+.about-me img {
+    /* Alterando a imagem */
+    position: relative;
+    border-radius: 50%;
+    width: 300px;
+    left: 30px;
+    top: 30px;
+    border: 6px solid rgb(116, 114, 100);
+}
+
+.invisiburu {
+    /* Deixando todos os itens desnecessários na página invisiveis */
+    display: none !important; 
+}
+
+.education .text {
+    margin-top: 3.5rem;
+    width: 780px;
+    height: 450px;
+    border: 10px #3C3633;
+    background-color: #E0CCBE;
+    padding: 35px;
+    text-align: center;
+    font-family: "VT323", monospace;
+    font-size: xx-large;
+    color: #3C3633;
+}
+
+.education .text p {
+    margin-top: 0.5rem;
+}
+
+.column {
+    flex: 50%;
+  }
+
+.row {
+    display: table;
+    display: flex;
+  }
+
+.education img {
+    /* Editando a imagem dos gatinhos */
+    position: center;
+    margin-top: 3.5rem;
+    width: 100px;
+    left: 30px;
+    top: 40px;
+}
+
+body {
+   /* Mudando a cor do fundo da página */
+    background-color: rgb(238, 237, 235);
+}
+
+.projects .text {
+    /* Mantendo o mesmo padrão visual das outras páginas */
+    margin-top: 3.5rem;
+    width: 780px;
+    height: 300px;
+    border: 10px #3C3633;
+    background-color: #E0CCBE;
+    padding: 35px;
+    display: table-footer-group;
+    text-align: center;
+    font-family: "VT323", monospace;
+    font-size: xx-large;
+    color: #3C3633;
+}
+
+.projects .help a:link {
+    /* Mudando a cor do link */
+    color: #EEEDEB;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+
+.projects .help a:visited {
+    /* Mudando a cor do link quando já foi clicado */
+    color: #747264;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+.projects .text p {
+    margin-top: 0.5rem;
+}
+
+.contacts .text {
+    margin-top: 3.5rem;
+    width: 780px;
+    height: 500px;
+    border: 10px #3C3633;
+    background-color: #E0CCBE;
+    padding: 35px;
+    text-align: center;
+    font-family: "VT323", monospace;
+    font-size: xx-large;
+    color: #3C3633;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.button {
+    /* Cor de fundo do botão, cor do texto, espaçamento e borda arredondada */
+    background-color:#747264;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "VT323", monospace;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button:hover {
+    /* Altera a cor de fundo quando o mouse passa por cima  */
+    background-color: #3C3633;
+}
